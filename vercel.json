@@ -1,4 +1,1 @@
-{
-  "cleanUrls": true,
-  "trailingSlash": false
-}
+{\n  "cleanUrls": true,\n  "trailingSlash": true\n}
