@@ -3,8 +3,16 @@
   "trailingSlash": true,
   "rewrites": [
     {
-      "source": "/products/bumper-cars/:path*",
-      "destination": "/products/Bumper-Cars/:path*"
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/products/bumper-cars",
+      "destination": "/products/Bumper-Cars/index.html"
+    },
+    {
+      "source": "/products/bumper-cars/",
+      "destination": "/products/Bumper-Cars/index.html"
     }
   ]
 }
