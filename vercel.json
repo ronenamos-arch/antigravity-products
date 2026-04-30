@@ -1,18 +1,6 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": true,
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/products/bumper-cars",
-      "destination": "/products/Bumper-Cars/index.html"
-    },
-    {
-      "source": "/products/bumper-cars/",
-      "destination": "/products/Bumper-Cars/index.html"
-    }
-  ]
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "buildCommand": "echo 'Static site'",
+  "outputDirectory": "."
 }
