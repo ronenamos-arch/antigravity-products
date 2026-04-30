@@ -1,1 +1,10 @@
-{\n  "cleanUrls": true,\n  "trailingSlash": true\n}
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/products/bumper-cars/:path*",
+      "destination": "/products/Bumper-Cars/:path*"
+    }
+  ]
+}
